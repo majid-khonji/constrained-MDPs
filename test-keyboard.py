@@ -31,13 +31,13 @@ h = 3 # planning horizon
 
 # env = gym.make('FrozenLake-v1') # 16 states, 4 actions
 # env = gym.make('CliffWalking-v0') # 48 states, 4 actions
-# env = gym.make("Taxi-v3", render_mode="human") # 500 states, 6 actions
+env = gym.make("Taxi-v3", render_mode="human") # 500 states, 6 actions
 # env = gym.make("Blackjack-v1") # 32 states, 2 actions
 # env = gym.make("maze-random-10x10-plus-v0") 
 # env = gym.make('CartPole-v1', render_mode="human") # 500 states, 6 actions
 # env = gym.make('maze-v0') 
 # env = gym.make('maze-sample-100x100-v0')
-env = gym.make('maze-sample-10x10-v0')
+# env = gym.make('maze-sample-10x10-v0')
 
 
 print("Action space: {}".format(env.action_space))

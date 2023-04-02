@@ -165,7 +165,7 @@ env = gym.make('maze-random-30x30-plus-v0')
 print("Action space: {}".format(env.action_space))
 print("State space: {}".format(env.observation_space))
 
-horizon = 10
+horizon = 100
 initial_state = env.reset()
 
 graph = nx.DiGraph()
